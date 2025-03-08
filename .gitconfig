@@ -5,4 +5,4 @@
   cm = commit -m
   ac = !git add . && git commit -m
   acp = "!f() { git add . && git commit -m \"$@\" && git push; }; f"
-  fs = "!f() {git fetch origin \"$1\" && git switch \"$1\"; }; f"
+  fs = "!f() { git fetch origin \"$1\" && git switch \"$1\"; }; f"
